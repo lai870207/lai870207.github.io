@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水下攝影服務 - OCEANIAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 側邊欄 -->
+    <div class="sidebar">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4>選單</h4>
+            <button class="btn-close btn-close-white" id="closeSidebar"></button>
+        </div>
+        <div class="sidebar-links">
+            <div class="sidebar-dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#freedivingSubmenu">
+                    自由潛水
+                    <i class="fas fa-chevron-down ms-2"></i>
+                </a>
+                <div class="collapse" id="freedivingSubmenu">
+                    <a href="freediving/freediving-aida1.html">AIDA 1</a>
+                    <a href="freediving/freediving-aida2.html">AIDA 2</a>
+                    <a href="freediving/freediving-aida3.html">AIDA 3</a>
+                    <a href="freediving/freediving-experience.html">體驗潛水</a>
+                    <a href="freediving/freediving-guidedive.html">導潛&訓練潛</a>
+                </div>
+            </div>
+            <div class="sidebar-dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#instructorSubmenu">
+                    教練
+                    <i class="fas fa-chevron-down ms-2"></i>
+                </a>
+                <div class="collapse" id="instructorSubmenu">
+                    <a href="instructor/hairen.html">海仁教練</a>
+                    <a href="instructor/bruce.html">BRUCE教練</a>
+                    <a href="instructor/weizhi.html">威智教練</a>
+                </div>
+            </div>
+            <a href="environment.html">住宿環境</a>
+            <a href="blog.html">BLOG</a>
+            <a href="underwater-photo.html">水下攝影服務</a>
+            <a href="booking.html">預約課程</a>
+            <a href="contact.html">聯絡我們</a>
+        </div>
+    </div>
+    <div class="sidebar-overlay"></div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <button class="btn btn-outline-secondary" id="sidebarToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="col-6 text-center">
+                    <a href="Oceaniangreen.html">
+                        <img src="logo.png" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </header>
+    <main class="container my-5">
+        <!-- Section 1: Title -->
+        <section class="text-center mb-5">
+            <h1 class="display-4 mb-3">水下攝影<br>Namian浪人攝影工作室</h1>
+        </section>
+        <!-- Section 2: 1 left, 2 right -->
+        <section class="mb-5">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <img src="underwater/photo1.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="作品1">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <img src="underwater/photo2.jpg" class="img-fluid rounded mb-3" alt="作品2">
+                    <img src="underwater/photo3.jpg" class="img-fluid rounded" alt="作品3">
+                </div>
+            </div>
+        </section>
+        <!-- Section 3: 1 left, 2 right -->
+        <section class="mb-5">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <img src="underwater/photo4.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="作品4">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <img src="underwater/photo5.jpg" class="img-fluid rounded mb-3" alt="作品5">
+                    <img src="underwater/photo6.jpg" class="img-fluid rounded" alt="作品6">
+                </div>
+            </div>
+        </section>
+        <!-- Section 4: left 威智, right gallery -->
+        <section class="mb-5">
+            <div class="row g-3 align-items-stretch">
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <div class="mb-3">
+                        <h3>威智</h3>
+                        <p>專業水下攝影師，擅長捕捉動態與自然光影。</p>
+                    </div>
+                    <a href="https://instagram.com/weizhi_ig" target="_blank" class="btn btn-outline-primary mb-3"><i class="fab fa-instagram me-2"></i>追蹤威智 IG</a>
+                </div>
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <img src="underwater/weizhi1.jpg" class="img-fluid rounded" alt="威智作品1">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="underwater/weizhi2.jpg" class="img-fluid rounded" alt="威智作品2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 5: left gallery, right BRUCE -->
+        <section class="mb-5">
+            <div class="row g-3 align-items-stretch">
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <img src="underwater/bruce1.jpg" class="img-fluid rounded" alt="BRUCE作品1">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="underwater/bruce2.jpg" class="img-fluid rounded" alt="BRUCE作品2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <div class="mb-3">
+                        <h3>BRUCE</h3>
+                        <p>熱愛海洋與攝影，專注於水下人像與自然生態紀錄。</p>
+                    </div>
+                    <a href="https://instagram.com/bruce_ig" target="_blank" class="btn btn-outline-primary mb-3"><i class="fab fa-instagram me-2"></i>追蹤BRUCE IG</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="logo-white.png" alt="Logo" class="footer-logo">
+                    <p>探索海洋的奧秘，體驗自由潛水的無限魅力。</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <h5 class="mb-3">快速連結</h5>
+                        <a href="#about">關於我們</a>
+                        <a href="#">常見問題</a>
+                        <a href="#">聯絡我們</a>
+                        <a href="#">隱私政策</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">聯絡資訊</h5>
+                    <p>海人企業社</p>
+                    <p>統一編號：85795661</p>
+                    <p>地址：台東縣綠島鄉公舘村柴口79-1號</p>
+                    <p>客服時間：9:00-21:00</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">Copyright 2025 © OCEANIAN in greenisland</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="https://line.me/yourlineaccount" class="line-float" target="_blank">
+        <i class="fab fa-line"></i>
+    </a>
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                document.getElementById('backToTop').style.display = 'flex';
+            } else {
+                document.getElementById('backToTop').style.display = 'none';
+            }
+        });
+        document.getElementById('sidebarToggle').addEventListener('click', function() {
+            document.querySelector('.sidebar').classList.add('active');
+            document.querySelector('.sidebar-overlay').classList.add('active');
+        });
+        document.getElementById('closeSidebar').addEventListener('click', function() {
+            document.querySelector('.sidebar').classList.remove('active');
+            document.querySelector('.sidebar-overlay').classList.remove('active');
+        });
+        document.querySelector('.sidebar-overlay').addEventListener('click', function() {
+            document.querySelector('.sidebar').classList.remove('active');
+            document.querySelector('.sidebar-overlay').classList.remove('active');
+        });
+    </script>
+</body>
+</html> 
